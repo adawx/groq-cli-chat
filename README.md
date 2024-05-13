@@ -11,13 +11,13 @@ The API key should be exported as an environment variable called `GROQ_API_KEY`.
 
 You can download the binary from the releases section of this repo or build it yourself.
 
-This can also be built from cloning the repo and running `go build -o gchat` inside the directory.
+Building from cloning the repo requires golang installed and then running `go build -o gchat` inside the directory.
 
 
 ## Usage
 
 
-You can then run the binary with `./gchat -model <model> -message <message>` and follow the prompts to chat with GROQ AI.
+You can then run the binary with `./gchat -model <model> -message <message>` and receive a response from Groq AI. Doesn't support chat history. Just simple string prompts.
 
 Available models in can be found using `-help` flag.
 
